@@ -33,7 +33,7 @@ from .device import GoldairTuyaDevice
 
 _LOGGER = logging.getLogger(__name__)
 
-VERSION = "0.1.3"
+VERSION = "0.1.4"
 
 CONFIG_SCHEMA = vol.Schema(
     {DOMAIN: vol.All(cv.ensure_list, [vol.Schema(individual_config_schema())])},
